@@ -1,0 +1,23 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "this app is educational as part of learning node. from the course",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marat-Gumerov74/weather-cli.git"
+  },
+  "author": "gumerovm74@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marat-Gumerov74/weather-cli/issues"
+  },
+  "homepage": "https://github.com/Marat-Gumerov74/weather-cli#readme"
+}
