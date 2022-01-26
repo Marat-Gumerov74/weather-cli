@@ -5,8 +5,8 @@ const printError = (error) => {
     console.log(chalk.bgRed('ERROR') +  ' ' + error);
 }
 
-const pringSucces = (message) => {
-    console.log(chalk.bgGreen('SUCCESS') +  ' ' + error);
+const printSuccess = (message) => {
+    console.log(chalk.bgGreen('SUCCESS') +  ' ' + message);
 }
 
 const printHelp = () => {
@@ -20,4 +20,4 @@ const printHelp = () => {
     );
 }
 
-export { pringSucces, printError, printHelp }
+export { printSuccess, printError, printHelp }
